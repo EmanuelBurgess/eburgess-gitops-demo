@@ -1,0 +1,9 @@
+# variables #
+###################
+#*.tfvars
+
+# state #
+*.tfstate
+*.tfstate.backup
+*.json
+*.pub
