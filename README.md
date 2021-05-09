@@ -3,9 +3,7 @@
 
 This is a demo repo that leverages GCP to deliver a simple mvp gitops example.
 
-<p align="center">
-  <img src="https://github.com/EmanuelBurgess/eburgess-gitops-demo/blob/eb3e1cfba165ebca5c00585d37d1d434d0df3abe/images/gcpgitopsdemo.pdf" width="350" title="High level diagram">
-</p>
+<https://github.com/EmanuelBurgess/eburgess-gitops-demo/blob/eb3e1cfba165ebca5c00585d37d1d434d0df3abe/images/gcpgitopsdemo.pdf>
 
 ## Features
 
