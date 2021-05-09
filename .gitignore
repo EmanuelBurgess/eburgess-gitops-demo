@@ -3,7 +3,7 @@
 #*.tfvars
 
 # state #
-*.tfstate
+terraform.tfstate
 *.tfstate.backup
 *.json
 *.pub
