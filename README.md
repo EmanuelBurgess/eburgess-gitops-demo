@@ -13,6 +13,10 @@ This is a demo repo that leverages GCP to deliver a simple mvp gitops example.
 - Autoconfigure a custom webpage
 - Automatically build branch specific enviroments and manage state
 
+## How it works
+
+Update code via git ---> run terraform test locally ---> push code via git ---> GCP cloud build trigger is activated on push ---> GCP reads Cloudbuild.yaml file ---> performs delcared steps ---> terraform code gets checked and verified ---> previous code is removed ---> terraform gets executed in branch designated workspace --> build completes
+
 
 ## Tech
 
