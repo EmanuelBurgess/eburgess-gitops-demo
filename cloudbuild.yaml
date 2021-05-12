@@ -27,28 +27,6 @@ steps:
       cd modules/
 # [END get-creds]
 
-# [START get-slackurl]
-- id: 'get-slackurl'
-  name: 'google/cloud-sdk'
-  entrypoint: 'sh'
-  args: 
-  - '-c'
-  - | 
-      gcloud secrets versions access latest --secret=slack-webhook-url >> present.txt
-      if [ -f present.txt ]
-      then
-      export SLACK_WEBHOOK=$(gcloud secrets versions access latest --secret=slack-webhook-url)
-      echo "***********************"
-      echo "export of webhook variable complete"
-      echo "***********************"
-      else
-      echo "***********************"
-      echo "file is not found no slack url could be established"
-      echo "***********************"
-      fi  
-      env
-# [END get-slackurl]
-
 # [START tf-init]
 - id: 'tf init'
   name: 'hashicorp/terraform:0.13.6'
