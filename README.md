@@ -5,7 +5,7 @@ This is a demo repo that leverages GCP to deliver a simple mvp gitops example.
 
 <https://github.com/EmanuelBurgess/eburgess-gitops-demo/blob/eb3e1cfba165ebca5c00585d37d1d434d0df3abe/images/gcpgitopsdemo.pdf>
 
-## Features
+#### Features
 
 - Automatically build a compute instance
 - Automatically create a firewall rule to allow traffic to that instance
