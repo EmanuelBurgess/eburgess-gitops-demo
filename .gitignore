@@ -7,4 +7,3 @@ terraform.tfstate
 *.tfstate.backup
 *.json
 *.pub
-*.tfvars

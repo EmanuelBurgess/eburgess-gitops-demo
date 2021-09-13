@@ -5,8 +5,6 @@ This is a demo repo that leverages GCP to deliver a simple mvp gitops example.
 
 <https://github.com/EmanuelBurgess/eburgess-gitops-demo/blob/eb3e1cfba165ebca5c00585d37d1d434d0df3abe/images/gcpgitopsdemo.pdf>
 
-## Features
-
 - Automatically build a compute instance
 - Automatically create a firewall rule to allow traffic to that instance
 - Automatically set up monitoring and alerting
@@ -49,4 +47,3 @@ Dillinger uses a number of open source projects to work properly:
    [GCP-Firewall]: <https://cloud.google.com/vpc/docs/using-firewalls/>
    [GCP-Cloud-Storage]: <https://cloud.google.com/storage/>
    [Git]: <https://git-scm.com/>
-   [DockerHub]: <https://hub.docker.com/>
