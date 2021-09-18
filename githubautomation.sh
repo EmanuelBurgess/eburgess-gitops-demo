@@ -2,7 +2,7 @@
 
 git branch -a
 
-touch macbook.txt
+touch $1
 
 git status
 
