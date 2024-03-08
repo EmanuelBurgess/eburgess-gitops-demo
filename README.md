@@ -20,7 +20,6 @@ Update code via git ---> run terraform test locally ---> push code via git ---> 
 
 ## Tech
 
-Dillinger uses a number of open source projects to work properly:
 
 - [Terraform] - IAC Tool
 - [CloudBuild] - GCP Build Tool
